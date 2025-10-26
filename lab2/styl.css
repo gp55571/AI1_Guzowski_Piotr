@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'SuperDream';
+    src: url('fonts/Super Dream.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+body{
+    background-color: rgb(169, 248, 200);
+    font-family: 'SuperDream', sans-serif;
+}
+
+#main{
+    width: 790px;
+    height: 360px;
+    margin-left: 26%;
+    margin-top: 6%;
+    border: 3px outset black;
+    padding-bottom: 5%;
+    background-color: white;
+    box-shadow: 5px 10px #838181;
+    border: double 20px rgb(8, 8, 8);
+    border-radius: 2em;
+}
+#lupa{
+ margin-top: 20px;
+}
+#szukanie{
+    width: 15rem;
+    border: solid 1px rgb(0, 0, 0);
+}
+#wpisanie{
+    width: 15rem;
+    border: solid 1px rgb(0, 0, 0);
+}
+#gora{
+    text-align: center;
+    margin-left: 13px;
+    margin-top: 1%;
+    width: 45rem;
+    background-color: rgb(167, 234, 255);
+    border: solid 5px rgb(0, 0, 0);
+    border-radius: 2em;
+    padding: 2%;
+}
+#dol{
+    overflow-y: auto;
+    text-align: center;
+    margin-left: 13px;
+    margin-top: 4%;
+    height: 260px;
+    width: 45rem;
+    background-color: rgb(167, 234, 255);
+    border: solid 5px rgb(0, 0, 0);
+    border-radius: 2em;
+    padding: 2%;
+}
+#data{
+    margin-left: 10px;
+}
+span{
+    border: 1px outset black;
+    background-color: white;
+    box-shadow: 1px 2px #838181;
+    border: double 2px rgb(8, 8, 8);
+    border-radius: 10px;
+    padding: 10px;
+}
+button{
+    margin-left: 10px;
+    border: 1px outset black;
+    background-color: white;
+    box-shadow: 1px 2px #838181;
+    border: double 2px rgb(8, 8, 8);
+    border-radius: 1em;
+}
+button:hover{
+    background-color: #c4ecdd;
+}
+.zadanie{
+    padding: 20px;
+}
