@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+    background-color: rgb(169, 248, 200);
+}
+button{
+    margin-left: 10px;
+    border: 1px outset black;
+    background-color: white;
+    box-shadow: 1px 2px #838181;
+    border: double 2px rgb(8, 8, 8);
+    border-radius: 1em;
+    margin-bottom: 30px;
+}
+button:hover{
+    background-color: #c4ecdd;
+}
+#weather-results-container{
+    border: 1px outset black;
+    background-color: rgb(154, 224, 252);
+    box-shadow: 1px 2px #838181;
+    border: double 2px rgb(8, 8, 8);
+    border-radius: 1em;
+}
+.weather-block{
+    margin: 2%;
+    padding: 10px;
+    display: inline-block;
+    border: 1px outset black;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 2px #838181;
+    border: double 2px rgb(8, 8, 8);
+    border-radius: 1em;
+}
+h1{
+    margin-left: 40%;
+    margin-right: 40%;
+    border: 1px outset black;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 2px #838181;
+    border: double 2px rgb(8, 8, 8);
+    border-radius: 1em;
+}
+#znaczek{
+    width: 200px;
+    height: 200px;
+}
